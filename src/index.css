@@ -3,3 +3,26 @@
   margin: 0;
 }
 
+body, #root{
+  /* background-color: #070809; */
+  background: url('./assets/frameDesignNew.svg') no-repeat center center fixed;
+  font-family: 'Gotham';
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/GothamBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/GothamBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}

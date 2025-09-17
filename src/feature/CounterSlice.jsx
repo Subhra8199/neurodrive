@@ -41,10 +41,6 @@ export const fetchData = createAsyncThunk(
             console.timeEnd("parallelTasks")
             console.timeEnd("mixed")
             return {user1,posts,albums}
-
-
-
-
             
         }catch(err){
             console.error(`${err.message}: http error ${err.response?.status} ${err.response?.statusText}`)
